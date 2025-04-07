@@ -60,3 +60,16 @@ From the cleaned dataset, I extracted the following insights:
 2) WFH percentage for May.
 3) Day of the week with the highest attendance in June.
 4) Employees with WFH > 10% in April
+
+ # Week 1 - Task 2
+# Data Normalization
+
+→ I am doing normalization using Excel.
+
+Steps:
+First create 4 another sheets (fact_orders, dim_customers, dim_poducts, dim_date)
+In fact_orders sheet, paste data from main sheet and delete irrelevant columns as per output preview.
+Then extract unique customer_id from main sheet using UNIQUE() function and paste as value in dim_customer sheet and named column as "customer_id".
+After that extract customer name and city in dim_customer table using INDEX and MATCH function from main sheet.
+The above same steps are followed for dim_date and dim_products as per output preview mentioned below.
+After norrmalization, here you can see normalized output file.
